@@ -109,7 +109,7 @@ Responsive media queries
   min-height: 650px;
 }
 
-.navbar-border {}
+/* .navbar-border {} */
 
 .banner-text {
   border-left: 5px solid #89B0D5;
@@ -245,7 +245,10 @@ blockquote {
 
 #contact {
   width: 100%;
-  background-color: RGBA(8, 7, 7, 0.92);
+  background: url('../img/contact.jpg') no-repeat fixed;
+  background-size: cover;
+  min-height: 630px;
+  position: relative;
 }
 
 #contact .btn-primary {
