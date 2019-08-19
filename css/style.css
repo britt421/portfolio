@@ -1,9 +1,3 @@
-/*
-    Theme Name: Laura
-    Theme URL: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/
-    Author: BootstrapMade.com
-    Author URL: https://bootstrapmade.com
-*/
 
 body {
   line-height: 1.4;
@@ -134,7 +128,7 @@ Responsive media queries
   font-family: 'Satisfy', cursive;
 }
 
-.overlay-detail {
+/* .overlay-detail {
   margin: 0 auto;
 }
 
@@ -149,7 +143,7 @@ Responsive media queries
   border: 1px solid #fff;
   line-height: 40px;
   border-radius: 50%;
-}
+} */
 
 .deco {
   font-family: 'Satisfy', cursive;
@@ -159,11 +153,15 @@ Responsive media queries
   /* background: url('../img/about-banner.jpg') no-repeat; */
   background-color: #fff;
   background-size: cover;
-  margin-bottom: -3px;
+  margin: 58px;
 }
 
 .section-padding {
-  padding: 15px 0px;
+  padding: 15px;
+}
+
+div.col-md-6.text-left {
+  padding: 0px 65px 0px 15px;
 }
 
 .title {
@@ -180,6 +178,7 @@ Responsive media queries
 
 .about-text p {
   color: #444;
+  font-size: 23px;
 }
 
 .abt-list li {
@@ -230,6 +229,7 @@ Responsive media queries
 
 .portfolio-pieces:hover .overlay {
   opacity: 1;
+  background-color: #444;
 }
 
 .overlay {
@@ -242,7 +242,6 @@ Responsive media queries
   width: 100%;
   opacity: 0;
   transition: .05s ease;
-  background-color: #444;
 }
 
 .portfolio-pieces img {
