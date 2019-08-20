@@ -253,7 +253,17 @@ div.col-md-6.text-left {
   padding: 10px;
 }
 
-.test-sec blockquote {
+.tech-sec {
+  display: flex;
+}
+
+.card {
+  float: left;
+  position: relative;
+  width: 200px;
+}
+
+/* .test-sec blockquote {
   background: #eee;
   display: block;
   font-size: 14px;
@@ -270,7 +280,7 @@ div.col-md-6.text-left {
   border-top: 14px solid #eee;
   border-left: 14px solid transparent;
   border-right: 14px solid transparent;
-}
+} */
 
 blockquote {
   padding: 10px 20px;
