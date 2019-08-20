@@ -263,6 +263,10 @@ div.col-md-6.text-left {
   width: 200px;
 }
 
+.mail.invert{
+    -webkit-filter: invert(100%);
+}
+
 /* .test-sec blockquote {
   background: #eee;
   display: block;
