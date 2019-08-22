@@ -492,4 +492,8 @@ Responsive media queries
   .title-text {
     margin-bottom: 15px;
   }
+
+  #portfolio-grid {
+    background-color: #f0f1e9;
+  }
 }
