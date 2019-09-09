@@ -263,6 +263,14 @@ div.col-md-6.text-left {
   width: 200px;
 }
 
+.card:hover .overlay {
+  opacity: 1;
+}
+
+.card-title {
+  align-content: center;
+}
+
 #mongoDB {
   padding-top: 48px;
 }
